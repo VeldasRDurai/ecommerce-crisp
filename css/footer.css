@@ -1,6 +1,6 @@
 div#footer{
     background-color: black;
-    height: 60vh;
+    height: 420px;
     display: flex;
     flex-direction: column;
     color: white;
@@ -8,7 +8,7 @@ div#footer{
 
 div#footer #footer-section-1{
     display: flex;
-    height: 50vh;
+    height: 350px;
     display: flex;
     justify-content: space-between;
     padding: 50px 20px 0 20px;
@@ -101,7 +101,7 @@ div#footer
 
 div#footer #footer-section-2{
     display: flex;
-    height: 10vh;
+    height: 70px;
 }
 div#footer #footer-section-2 .copyright{
     width: 100%;

@@ -10,7 +10,7 @@ div#content #ad {
   position: relative;
 }
 div#content #ad #ad-bgd {
-  height: 70vh;
+  height: 500px;
 }
 
 div#content #ad #ad-bgd img {
@@ -123,7 +123,7 @@ div#content #brand-list #choose-ur-brand div {
 div#content #brand-list #brands {
   display: flex;
   border: 2px solid #c4c4c4;
-  min-height: 15vh;
+  min-height: 105px;
   justify-content: space-around;
   cursor: pointer;
 }
@@ -141,7 +141,7 @@ div#content #brand-list #brands :hover {
 }
 
 div#content #other-ad {
-  height: 100vh;
+  height: 700px;
   margin: 10px;
   display: flex;
   justify-content: space-evenly;
@@ -310,7 +310,7 @@ div#content
 }
 
 div#content #collection #collect #load-collect {
-  height: 10vh;
+  height: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -467,7 +467,7 @@ div#content #ad-4 {
 }
 .column {
   width: 23vw;
-  height: 50vh;
+  height: 350px;
   padding: 10px;
   display: flex;
   flex-direction: column;

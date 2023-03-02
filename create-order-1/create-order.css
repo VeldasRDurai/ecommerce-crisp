@@ -1,5 +1,5 @@
 div#content{
-    height: 150vh;
+    height: 1050px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,7 +9,7 @@ div#content > div{
     width:65vw;
 }
 div#content #content-path{
-    height:3vh;
+    height:21px;
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 11px;
@@ -19,7 +19,7 @@ div#content #content-path{
     color: #828282;
 }
 div#content #content-head{
-    height:6vh;
+    height:42px;
     font-family: 'Oswald';
     font-weight: 400;
     font-size: 38px;
@@ -31,10 +31,10 @@ div#content #content-head{
 div#content 
 #content-head
 img{
-    height: 6vh;
+    height: 42px;
 }
 div#content #content-form{
-    height:130vh;
+    height:910px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;

@@ -57,7 +57,7 @@ div#content .wishlist-row .wishlist-item .wishlist-cat {
   color: #bdbdbd;
 }
 div#content #collection #collect #load-collect {
-  height: 10vh;
+  height: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
