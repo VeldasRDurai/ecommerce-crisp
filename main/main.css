@@ -506,3 +506,13 @@ div#content #ad-4 {
 .ad-data-heading {
   position: relative;
 }
+
+div#content .wishlist-row .wishlist-item .wishlist-cat {
+  font-family: "Oswald";
+  font-weight: 600;
+  font-size: 9px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #bdbdbd;
+}
