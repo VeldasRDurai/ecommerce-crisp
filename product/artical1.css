@@ -1,0 +1,312 @@
+div#content {
+  display: flex;
+  flex-direction: column;
+}
+
+div#content .wishlist-row {
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: space-evenly;
+}
+div#content .wishlist-row .wishlist-item {
+  display: flex;
+  flex-direction: column;
+  width: 17vw;
+}
+
+div#content .wishlist-row .wishlist-item img {
+  width: 100%;
+}
+div#content .wishlist-row .wishlist-item > div {
+  margin-bottom: 5px;
+}
+div#content .wishlist-row .wishlist-item .wishlist-name {
+  font-family: "Oswald";
+  font-weight: 400;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  padding-right: 30px;
+}
+div#content .wishlist-row .wishlist-item .wishlist-amout {
+  font-family: "Roboto";
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  font-family: "Oswald";
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+div#content .side-bar-head {
+  margin: 30px;
+  font-family: "Oswald";
+  font-weight: 400;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+div#content #product {
+  position: relative;
+  margin: 10px;
+  width: 60vw;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+}
+
+div#content #product .img-n-description {
+  display: flex;
+  justify-content: space-between;
+}
+
+div#content #product .img-n-description .main-img {
+  width: 30vw;
+}
+
+div#content #product .img-n-description .main-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+div#content #product .img-n-description .sub-imgs {
+  position: absolute;
+  transform: translateX(calc(-100% - 5px));
+}
+
+div#content #product .img-n-description .description {
+  display: flex;
+  flex-direction: column;
+  width: 25vw;
+  align-items: flex-start;
+}
+
+div#content #product .img-n-description .description > div {
+  margin-bottom: 15px;
+  color: #828282;
+  font-size: 10px;
+}
+div#content #product .img-n-description .description .des-path {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  color: #828282;
+}
+div#content #product .img-n-description .description .des-brand {
+  background: #f0f2f2;
+  padding: 5px;
+  font-family: "Roboto";
+  font-weight: 600;
+  font-size: 11px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div#content #product .img-n-description .description .des-head {
+  font-family: "Oswald";
+  font-weight: 500;
+  font-size: 36px;
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+div#content #product .img-n-description .description .des-sub-head {
+  font-family: "Oswald";
+  font-weight: 500;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 5px;
+}
+div#content #product .img-n-description .description .des-colors .colors {
+  display: flex;
+}
+
+div#content
+  #product
+  .img-n-description
+  .description
+  .des-colors
+  .colors
+  .color {
+  height: 10px;
+  width: 10px;
+  padding: 2px;
+  background-clip: content-box;
+  /* background-color: aquamarine; */
+  border: 2px solid black;
+}
+div#content #product .img-n-description .description .des-colors .colors > div {
+  margin-right: 5px;
+}
+
+div#content #product .img-n-description .description .des-sizes .size-head {
+  display: flex;
+  justify-content: space-between;
+}
+div#content #product .img-n-description .description .sizes .size-row {
+  display: flex;
+  /* padding: 3px; */
+  margin-right: 8px;
+}
+div#content #product .img-n-description .description .sizes .size-row .size {
+  height: 30px;
+  width: 30px;
+  border: 1px solid #828282;
+  font-family: "Oswald";
+  font-weight: 400;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  color: #828282;
+  margin-left: 3px;
+}
+
+.des-quantity-n-price .quantity .quantity-no {
+  display: flex;
+  border: 2px solid rgb(201, 196, 196);
+  justify-content: space-between;
+  width: 90px;
+  /* margin-top: 3px; */
+  padding: 5px;
+}
+
+.price .price-head.des-sub-head {
+  display: flex;
+  margin-top: 20px;
+}
+.des-buttons {
+  display: flex;
+  margin-right: 10px;
+  width: 100%;
+}
+.des-buttons .black-btn {
+  display: flex;
+  background-color: black;
+  padding: 6px;
+  color: white;
+  font-family: "Oswald";
+  margin-right: 10px;
+  width: 120px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.des-buttons .white-btn {
+  display: flex;
+  color: black;
+  padding: 6px;
+  border: 2px solid black;
+  font-family: "Oswald";
+  width: 120px;
+  align-items: center;
+  justify-content: center;
+}
+.des-quantity-n-price {
+  display: flex;
+}
+.des-quantity-n-price > div {
+  margin-right: 20px;
+}
+.details-content {
+  display: flex;
+}
+.des-tags {
+  display: flex;
+  flex-direction: row;
+}
+
+.details {
+  background-color: #f8f9fb;
+  margin-right: 40px;
+  padding: 20px;
+}
+.details .content-right {
+  margin-right: -18px;
+}
+.details .product-sub-head {
+  font-family: "Oswald";
+  font-weight: bolder;
+}
+
+.details .details-hr {
+  border: 1px solid #80808030;
+  width: 100%;
+}
+
+.details .details-content .content-left .about .content-head {
+  font-family: "Oswald";
+  margin-top: 10px;
+}
+.details .details-content .content-left .about .content-body {
+  font-family: "Roboto";
+  margin-top: 10px;
+}
+.details .details-content .content-left .adv-1 .content-head {
+  font-family: "Oswald";
+  margin-top: 10px;
+}
+
+.details .details-content .content-left .adv-1 .content-body li {
+  font-family: "Roboto";
+  margin-top: 10px;
+}
+.details .details-content .content-left .adv-2 .content-head {
+  font-family: "Oswald";
+  margin-top: 10px;
+}
+.details .details-content .content-left .adv-2 .content-body li {
+  font-family: "Roboto";
+  margin-top: 10px;
+}
+.details .content-right .shipping .content-head {
+  font-family: "Oswald";
+  margin-top: 10px;
+}
+.details .content-right .shipping .content-body .para-1 {
+  font-family: "Roboto";
+  margin-top: 10px;
+}
+.details .content-right .shipping .content-body .para-2 {
+  font-family: "Roboto";
+  margin-top: 10px;
+}
+.details .content-right .shipping .content-body .para-3 {
+  font-family: "Roboto";
+  margin-top: 10px;
+}
+.other-info .product-sub-head {
+  background-color: #f0f2f2;
+  margin-top: 15px;
+  width: 820px;
+  height: 54px;
+  align-items: center;
+  top: 20%;
+  bottom: 20%;
+  display: flex;
+  font-family: "Oswald";
+}
+.another-tab .product-sub-head {
+  background-color: #f0f2f2;
+  margin-top: 15px;
+  width: 820px;
+  height: 54px;
+  align-items: center;
+  top: 20%;
+  bottom: 20%;
+  display: flex;
+  font-family: "Oswald";
+}

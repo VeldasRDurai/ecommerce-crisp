@@ -1,0 +1,77 @@
+div#header {
+  height: 70px;
+  color: white;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Oswald", sans-serif;
+  font-size: 14px;
+  position: relative;
+}
+div#header #logo {
+  margin-left: 20px;
+}
+div#header #navigation-wrapper {
+  /* position: absolute; */
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div#header #navigation-wrapper #navigation {
+  display: flex;
+  height: 50%;
+  justify-content: center;
+  align-items: center;
+}
+div#header #navigation-wrapper #navigation > div {
+  padding: 0 10px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div#header #navigation-wrapper #navigation #home {
+  border-bottom: 2px solid #eb5757;
+}
+div#header #navigation-wrapper #navigation #search {
+  display: flex;
+  justify-content: center;
+  padding: 0 5px;
+}
+div#header #navigation-wrapper #navigation #search #search-icon {
+  display: flex;
+  margin-right: 5px;
+}
+
+div#header #account {
+  margin-right: -585px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+div#header #account > div {
+  padding: 0 10px;
+  word-wrap: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div#header #account #cart {
+  display: flex;
+  align-items: center;
+  font-family: "Roboto";
+}
+div#header #account #cart > div {
+  padding: 0 5px;
+}
+div#header #account #cart #cart-text-1 {
+  font-size: 12px;
+}
+
+a {
+  color: #817c7c;
+  text-decoration: none;
+}

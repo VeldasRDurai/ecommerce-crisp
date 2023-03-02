@@ -1,0 +1,15 @@
+div#features{
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #E6F1FA;
+    font-family: 'Oswald';
+    font-weight: 400;
+}
+div#features .feature{
+    display: flex;
+}
+div#features .feature>div{
+    padding: 5px;
+}

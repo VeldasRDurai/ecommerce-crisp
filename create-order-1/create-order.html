@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRISP</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet" />
+
+    <style>
+        body {
+            margin: 0;
+            background-color: white;
+        }
+    </style>
+    <link rel="stylesheet" href="../css/header.css" />
+    <link rel="stylesheet" href="../css/features.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+
+    <link rel="stylesheet" href="./create-order.css" />
+</head>
+
+<body>
+
+    <div id="header">
+        <div id="logo">
+            <img src="../assets/logo.svg" alt="CRISP" />
+        </div>
+        <div id="navigation-wrapper">
+            <div id="navigation">
+                <div id="home">HOME</div>
+                <div id="shop">SHOP</div>
+                <div id="blog">BLOG</div>
+                <div id="sale">SALE</div>
+                <div id="contact-us">CONTACT US</div>
+                <div id="search">
+                    <div id="search-icon">
+                        <img src="../assets/search-icon.svg" alt="SEARCH" />
+                    </div>
+                    <div id="search-text">SEARCH</div>
+                </div>
+            </div>
+        </div>
+        <div id="account">
+            <div id="sign-in">SIGN IN</div>
+            <div id="create-an-account">CREATE AN ACCOUNT</div>
+            <div id="heart-icon">
+                <img src="../assets/heart.svg" alt="LIKE" />
+            </div>
+            <div id="cart">
+                <div id="cart-icon">
+                    <img src="../assets/cart.svg" alt="CART" />
+                </div>
+                <div id="cart-text">
+                    <div id="cart-text-1">Shopping Cart</div>
+                    <div id="cart-text-2">0,00EUR</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="content">
+        <div id="content-path">Home / Create Order</div>
+        <div id="content-head">
+            <img src="./order-status.svg" alt="ORDER-STATUS">
+        </div>
+        <div id="content-form">
+            <div id="address-n-method">
+                <div class="section">
+                    <div class="section-header">Shipping Address</div>
+                    <div class="section-input">
+                        <div class="section-input-label">
+                            Email Address
+                            <span class="section-input-label-mandatory"> *</span>
+                        </div>
+                        <input class="section-input-box" placeholder="roni_cost@example.com" />
+                    </div>
+                    <div class="section-input">
+                        <div class="section-input-label">
+                            Password
+                            <span class="section-input-label-mandatory"> *</span>
+                        </div>
+                        <input type="password" class="section-input-box" placeholder="*************" />
+                    </div>
+                    <div class="section-input">
+                        <div class="section-input-label">
+                            Zip/Postal Code
+                        </div>
+                        <input class="section-input-box" />
+                    </div>
+                    <div class="section-input">
+                        <div class="section-input-label">
+                            Zip/Postal Code
+                        </div>
+                        <input class="section-input-box" />
+                    </div>
+                    <div class="medium-light-font">You already have an account with us. Sign in or continue as guest.
+                    </div>
+                    <div class="button-section">
+                        <div class="black-button">LOGIN</div>
+                        <div class="blue-button">Forgot Your Password?</div>
+                    </div>
+                    <div class="hr"></div>
+                    <div class="section-input">
+                        <div class="section-input-label">
+                            First Name
+                            <span class="section-input-label-mandatory"> *</span>
+                        </div>
+                        <input class="section-input-box" />
+                    </div>
+                    <div class="section-input">
+                        <div class="section-input-label">
+                            Last Name
+                            <span class="section-input-label-mandatory"> *</span>
+                        </div>
+                        <input class="section-input-box" />
+                    </div>
+                    <div class="section-input">
+                        <div class="section-input-label">
+                            Company
+                        </div>
+                        <input class="section-input-box" />
+                    </div>
+                    <div class="section-input">
+                        <div class="section-input-label">
+                            Street Address
+                            <span class="section-input-label-mandatory"> *</span>
+                        </div>
+                        <input class="section-input-box" />
+                    </div>
+                    <div class="section-input">
+                        <div class="section-input-label"></div>
+                        <input class="section-input-box" />
+                    </div>
+                    <div class="section-input">
+                        <div class="section-input-label"></div>
+                        <input class="section-input-box" />
+                    </div>
+                    <div class="section-input">
+                        <div class="section-input-label">
+                            Country
+                            <span class="section-input-label-mandatory"> *</span>
+                        </div>
+                        <input class="section-input-box" />
+                    </div>
+                    <div class="section-input">
+                        <div class="section-input-label">
+                            State/Province
+                            <span class="section-input-label-mandatory"> *</span>
+                        </div>
+                        <input class="section-input-box" placeholder="Please select a region, state or province" />
+                    </div>
+
+                    <div class="section-header">Shipping Methods</div>
+                    <div class="hr"></div>
+                    <div class="section-checkbox">
+                        <input type="checkbox" checked />
+                        <div>$5.00</div>
+                        <div>Fixed</div>
+                        <div>Flat rate</div>
+                    </div>
+                    <div class="section-checkbox">
+                        <input type="checkbox" />
+                        <div>$10.00</div>
+                        <div>Table Rate</div>
+                        <div>Best way</div>
+                    </div>
+                    <div class="button-section">
+                        <div class="black-button"> <a href="../create-order-2/create-order.html"> NEXT</a></div>
+                        <div class="gray-button">BACK</div>
+                    </div>
+                </div>
+            </div>
+            <div id="order-summary">
+                <div class="section-header">Order Summary</div>
+                <div class="hr"></div>
+                <div id="hidden">
+                    <div class="cart-detail">
+                        <div class="medium-light-font-oslwald">Cart Subtotal</div>
+                        <div class="medium-light-font-oslwald">$56.25</div>
+                    </div>
+                    <div class="cart-detail">
+                        <div class="medium-light-font-oslwald">Shipping</div>
+                        <div class="medium-light-font-oslwald">$56.25</div>
+                    </div>
+                    <div class="cart-detail">
+                        <div class="medium-light-font-oslwald">Flat Rate - Fixed</div>
+                        <div class="medium-light-font-oslwald"></div>
+                    </div>
+                    <div class="hr"></div>
+                    <div class="cart-detail">
+                        <div class="medium-dark-font-oswald">Order Total</div>
+                        <div class="medium-dark-font-oswald">$56.25</div>
+                    </div>
+                </div>
+                <div class="large-light-font">Items in cart </div>
+                <div class="hr"></div>
+                <div class="cart-item">
+                    <div class="cart-item-img-n-details">
+                        <div class="cart-item-img">
+                            <img src="./blue-cloth.png" alt="CLOTH" />
+                        </div>
+                        <div class="cart-item-details">
+                            <div class="item-name">Angels malu zip jeans slim black used</div>
+                            <div class="quatity">Qty: 1</div>
+                            <div class="item-details">View Details</div>
+                        </div>
+                    </div>
+                    <div class="cart-item-price">129,00 EUR</div>
+                </div>
+                <div class="cart-item">
+                    <div class="cart-item-img-n-details">
+                        <div class="cart-item-img">
+                            <img src="./red-cloth.png" alt="CLOTH" />
+                        </div>
+                        <div class="cart-item-details">
+                            <div class="item-name">Angels malu zip jeans slim black used</div>
+                            <div class="quatity">Qty: 1</div>
+                            <div class="item-details">View Details</div>
+                        </div>
+                    </div>
+                    <div class="cart-item-price">129,00 EUR</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="features">
+        <div class="feature">
+            <div class="feature-icon">
+                <img src="../assets/tick.svg" alt="TICK">
+            </div>
+            <div class="feature-text">
+                Duties and Taxes Guaranteed
+            </div>
+        </div>
+        <div class="feature">
+            <div class="feature-icon">
+                <img src="../assets/tick.svg" alt="TICK">
+            </div>
+            <div class="feature-text">
+                Free Express Shipping
+            </div>
+        </div>
+        <div class="feature">
+            <div class="feature-icon">
+                <img src="../assets/tick.svg" alt="TICK">
+            </div>
+            <div class="feature-text">
+                Customer Love
+            </div>
+        </div>
+        <div class="feature">
+            <div class="feature-icon">
+                <img src="../assets/tick.svg" alt="TICK">
+            </div>
+            <div class="feature-text">
+                Easy Return
+            </div>
+        </div>
+        <div class="feature">
+            <div class="feature-icon">
+                <img src="../assets/tick.svg" alt="TICK">
+            </div>
+            <div class="feature-text">
+                Secure Payment
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div id="footer-section-1">
+            <div class="footer-data">
+                <img src="../assets/logo.svg" alt="LOGO">
+            </div>
+            <div class="footer-data">
+                <div class="footer-data-head">
+                    FEATURES
+                </div>
+                <div class="footer-data-body">
+                    <div class="footer-data-items">MEN</div>
+                    <div class="footer-data-items">WOMEN</div>
+                    <div class="footer-data-items">BOYS</div>
+                    <div class="footer-data-items">GIRLS</div>
+                    <div class="footer-data-items">NEW ARRIVALS</div>
+                    <div class="footer-data-items">SHOES</div>
+                    <div class="footer-data-items">CLOTHES</div>
+                    <div class="footer-data-items">ACCESSORIES</div>
+                </div>
+            </div>
+            <div class="footer-data">
+                <div class="footer-data-head">
+                    MENU
+                </div>
+                <div class="footer-data-body">
+                    <div class="footer-data-items">ABOUT US</div>
+                    <div class="footer-data-items">CONTACT US</div>
+                    <div class="footer-data-items">MY ACCOUNT</div>
+                    <div class="footer-data-items">ORDERS HISTORY</div>
+                    <div class="footer-data-items">MY WISHLIST</div>
+                    <div class="footer-data-items">BLOG</div>
+                    <div class="footer-data-items">LOGIN</div>
+                </div>
+            </div>
+            <div class="footer-data">
+                <div class="footer-data-head">
+                    CONTACT US
+                </div>
+                <div class="footer-data-body">
+                    <div class="footer-data-sub">
+                        <div class="footer-data-sub-head">ADDRESS:</div>
+                        <div class="footer-data-sub-body">123 STREET NAME, CITY, ENGLAND</div>
+                    </div>
+                    <div class="footer-data-sub">
+                        <div class="footer-data-sub-head">PHONE:</div>
+                        <div class="footer-data-sub-body">(123) 456-7890</div>
+                    </div>
+                    <div class="footer-data-sub">
+                        <div class="footer-data-sub-head">EMAIL:</div>
+                        <div class="footer-data-sub-body">MAIL@EXAMPLE.COM</div>
+                    </div>
+                    <div class="footer-data-sub">
+                        <div class="footer-data-sub-head">WORKING DAYS/HOURS</div>
+                        <div class="footer-data-sub-body">MON - SUN / 9:00AM - 8:00PM</div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-data">
+                <div class="footer-data-head">
+                    FOLLOW US
+                </div>
+                <div class="footer-data-body">
+                    <div class="footer-data-items">
+                        <div class="footer-data-item-logo">
+                            <img src="../assets/facebook.svg" alt="FACEBOOK">
+                        </div>
+                        <div class="footer-data-item-caption">
+                            FACEBOOK
+                        </div>
+                    </div>
+                    <div class="footer-data-items">
+                        <div class="footer-data-item-logo">
+                            <img src="../assets/twiter.svg" alt="TWITTER">
+                        </div>
+                        <div class="footer-data-item-caption">
+                            TWITTER
+                        </div>
+                    </div>
+                    <div class="footer-data-items">
+                        <div class="footer-data-item-logo">
+                            <img src="../assets/instagram.svg" alt="INSATGARM">
+                        </div>
+                        <div class="footer-data-item-caption">
+                            INSATGARM
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-data">
+                <div class="footer-data-head">
+                    JOIN US
+                </div>
+                <div class="footer-data-body">
+                    <div class="footer-data-items">SUBSCRIBE TO OUR NEWSLETTERS</div>
+                    <div class="footer-data-items footer-data-input" contenteditable> Email Address </div>
+                    <div class="footer-data-items footer-data-button"> SUBSCRIBE!</div>
+                </div>
+            </div>
+        </div>
+        <div id="footer-section-2">
+            <div class="copyright">© 2019. CRISP THEME DEVELOPED BY BELVG</div>
+        </div>
+    </div>
+</body>
+
+</html>

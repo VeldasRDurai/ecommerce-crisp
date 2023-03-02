@@ -1,0 +1,179 @@
+div#content{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+div#content > div{
+    width:75vw;
+}
+div#content #content-path{
+    height:3vh;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #828282;
+}
+div#content #content-head{
+    height:6vh;
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+div#content #content-form{
+    height:70vh;
+    border: 1px solid #C4C4C4;
+    display: flex;
+    justify-content: center;
+}
+
+div#content 
+#content-form 
+#sections{
+    height: 100%;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+div#content 
+#content-form 
+#sections
+.section,
+div#content 
+#content-form 
+#sections
+.button-section {
+    width: 100%;
+    margin-top: 10px;
+}
+div#content 
+#content-form 
+#sections
+.section > div{
+    margin-bottom: 15px;
+}
+
+div#content 
+#content-form 
+#sections
+.section
+.section-input-label-mandatory{
+    color: red;
+}
+div#content 
+#content-form 
+#sections
+.section
+.section-header{
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 18px;
+    display: flex;
+}
+div#content 
+#content-form 
+#sections
+.section
+.section-input{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+div#content 
+#content-form 
+#sections
+.section
+.section-input
+.section-input-label{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+}
+div#content 
+#content-form 
+#sections
+.section
+.section-input
+.section-input-box{
+    height: 25px;
+    width: 20vw;
+    border: 1px solid #C4C4C4;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    color: #828282;
+    padding-left: 10px;
+}
+div#content 
+#content-form 
+#sections
+.section
+.section-checkbox{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+div#content 
+#content-form 
+#sections
+.section
+.section-checkbox
+.section-checkbox-text{
+    margin-left: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    color: #828282;
+}
+
+
+div#content 
+#content-form 
+#sections
+.button-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 40px;
+    font-family: Oswald;
+}
+
+div#content 
+#content-form 
+#sections
+.button-section
+#black-button{
+    width: 15vw;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div#content 
+#content-form 
+#sections
+.button-section
+#gray-button{
+    color: #828282;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

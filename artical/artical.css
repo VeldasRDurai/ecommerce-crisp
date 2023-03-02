@@ -1,0 +1,249 @@
+div#content{
+    /* height: 150vh; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: space-evenly; */
+}
+
+div#content #content-path{
+    width: 75vw;
+    height:3vh;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #828282;
+    margin-top: 15px;
+    align-self: center;
+}
+div#content 
+#collection{
+    display: flex;
+    justify-content: space-between;
+}
+div#content 
+#collection
+#collect{
+    width: 75vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    border-left: 1px solid #C4C4C4;
+}
+div#content 
+/* #collection
+#collect */
+.wishlist-row{
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+}
+div#content 
+/* #collection
+#collect */
+.wishlist-row
+.wishlist-item{
+    display: flex;
+    flex-direction: column;
+    width: 17vw;
+}
+
+div#content 
+/* #collection
+#collect */
+.wishlist-row
+.wishlist-item 
+img {
+    width: 100%;
+}
+div#content 
+/* #collection
+#collect */
+.wishlist-row
+.wishlist-item > div{
+    margin-bottom: 5px;
+}
+div#content 
+/* #collection
+#collect */
+.wishlist-row
+.wishlist-item
+.wishlist-name{
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    padding-right: 30px;
+}
+div#content 
+/* #collection
+#collect */
+.wishlist-row
+.wishlist-item
+.wishlist-amout{
+    font-family: 'Roboto';
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    font-family: 'Oswald';
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+div#content 
+#collection
+#collect
+#load-collect{
+    height:10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div#content 
+#collection
+#collect
+#load-collect
+#load-more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 11px;
+    height: 40px;
+    width: 100px;
+    border: 2px solid #C4C4C4;
+    color: #828282;
+}
+
+div#content 
+#collection
+#collect
+#load-collect
+#load-more:hover{
+    color: #000000;
+    background-color: #C4C4C4;
+}
+
+
+div#content 
+#collection
+#side-bar{
+    width:25vw ;
+}
+div#content 
+/* #collection
+#side-bar */
+.side-bar-head{
+    margin: 30px;
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+div#content 
+#collection
+#side-bar
+.side-bar-item{
+    margin-left: 50px;
+    margin-top: 10px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #3F3F3F;
+    cursor: pointer;
+}
+div#content 
+#collection
+#side-bar
+.side-bar-item:hover,
+div#content 
+#collection
+#side-bar
+.side-bar-item.selected{
+    font-weight: 600;
+    color: #000000;
+}
+div#content 
+.ad-x{
+    padding: 30px 15px;
+}
+
+div#content 
+.ad-x
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+div#content 
+#ad-4{
+    width: 90vw;
+}
+
+div#content 
+#artical-content{
+    width: 65vw;
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+div#content 
+#artical-content
+#artical-data{
+    width: 40vw;
+}
+div#content 
+#artical-content
+.section
+.section-para{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 11px;
+    color: #3F3F3F;
+    margin-top: 20px;
+    line-height: 18px;
+}
+div#content 
+#artical-content
+.section-img
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+div#content 
+#artical-content
+#artical-ad{
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+}
+
+div#content 
+#artical-content
+#artical-ad
+img{
+    width: 15vw;
+}
+
+div#content 
+#artical-content
+.section
+.side-bar-head{
+    margin: 0;
+}

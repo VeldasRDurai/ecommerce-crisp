@@ -1,0 +1,251 @@
+div#content{
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+div#content > div{
+    width:75vw;
+}
+div#content #content-path{
+    height:3vh;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #828282;
+}
+div#content #content-head{
+    height:6vh;
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+div#content #content-form{
+    height:130vh;
+    border: 1px solid #C4C4C4;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+div#content 
+#content-form 
+.sections{
+    margin-top: 7vh;
+    width: 60vw;
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid black; */
+}
+
+div#content 
+#content-form 
+.sections
+#options{
+    width: 15vw;
+}
+div#content 
+#content-form 
+.sections
+#options
+.option{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 13px;
+    color: #828282;
+    cursor: pointer;
+}
+
+div#content 
+#content-form 
+.sections
+#options
+.option:hover{
+    background-color: #F0F2F2;
+}
+div#content 
+#content-form 
+.sections
+#options
+.selected{
+    color: black;
+    background-color: #F0F2F2;
+}
+
+
+div#content 
+#content-form 
+.sections
+#wishlists{
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+}
+
+div#content 
+#content-form 
+.sections
+#wishlists
+.wishlist-row{
+    display: flex;
+    margin-bottom: 20px;
+}
+div#content 
+#content-form 
+.sections
+#wishlists
+.wishlist-row
+.wishlist-item{
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+}
+div#content 
+#content-form 
+.sections
+#wishlists
+.wishlist-row
+.wishlist-item > div{
+    margin-bottom: 5px;
+}
+div#content 
+#content-form 
+.sections
+#wishlists
+.wishlist-row
+.wishlist-item
+.img-n-options{
+    display: flex;
+}
+div#content 
+#content-form 
+.sections
+#wishlists
+.wishlist-row
+.wishlist-item
+.img-n-options > div {
+    margin-left: 5px;
+}
+div#content 
+#content-form 
+.sections
+#wishlists
+.wishlist-row
+.wishlist-item
+.wishlist-name{
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    padding-right: 30px;
+}
+div#content 
+#content-form 
+.sections
+#wishlists
+.wishlist-row
+.wishlist-item
+.wishlist-amout{
+    font-family: 'Roboto';
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    color: #828282;
+}
+div#content 
+#content-form 
+.sections
+#wishlists
+.wishlist-row
+.wishlist-item
+.wishlist-button-group{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+div#content 
+#content-form 
+.sections
+#wishlists
+.wishlist-row
+.wishlist-item
+.wishlist-button-group
+.wishlist-white-button{
+    height: 25px;
+    width: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #C4C4C4;
+}
+div#content 
+#content-form 
+.sections
+#wishlists
+.wishlist-row
+.wishlist-item
+.wishlist-button-group
+.wishlist-black-button{
+    margin-left: 15px;
+    height: 25px;
+    width: 100px;
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: black;
+    border: 1px solid black;
+}
+
+
+
+
+div#content 
+#content-form 
+.sections
+#wishlists
+.table-buttons{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 30px; 
+}
+div#content 
+#content-form 
+.sections
+#wishlists
+.table-buttons
+.grey-button{
+    margin-right: 15px;
+    height:30px;
+    width:9vw;
+    border: 1px solid #C4C4C4;
+    color: #828282;
+    background-color: #F0F2F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
