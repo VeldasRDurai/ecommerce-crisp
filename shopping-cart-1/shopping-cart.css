@@ -1,5 +1,5 @@
 div#content{
-    height: 130vh;
+    height: 910px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,7 +9,7 @@ div#content > div{
     width:80vw;
 }
 div#content #content-path{
-    height:3vh;
+    height:21px;
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 11px;
@@ -19,7 +19,7 @@ div#content #content-path{
     color: #828282;
 }
 div#content #content-head{
-    height:6vh;
+    height:42px;
     font-family: 'Oswald';
     font-weight: 400;
     font-size: 38px;
@@ -29,7 +29,7 @@ div#content #content-head{
 
 }
 div#content #content-form{
-    height:110vh;
+    height:770px;
     /* border: 1px solid #C4C4C4; */
     display: flex;
     justify-content: center;
@@ -39,7 +39,7 @@ div#content #content-form{
 div#content 
 #content-form 
 #sections{
-    margin-top: 7vh;
+    margin-top: 49px;
     width: 80vw;
     display: flex;
     justify-content: space-between;
