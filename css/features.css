@@ -1,3 +1,6 @@
+body {
+    overflow-x: hidden;
+  }
 div#features{
     height: 70px;
     display: flex;

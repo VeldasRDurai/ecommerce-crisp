@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+  }
+
 div#content 
 #collection{
     display: flex;

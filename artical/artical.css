@@ -1,3 +1,6 @@
+body {
+    overflow-x: hidden;
+  }
 div#content{
     /* height: 150vh; */
     display: flex;
