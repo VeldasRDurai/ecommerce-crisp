@@ -162,6 +162,8 @@ div#content #product .img-n-description .description .sizes .size-row {
   display: flex;
   /* padding: 3px; */
   margin-right: 8px;
+  gap: 3px;
+    height: 39px;
 }
 div#content #product .img-n-description .description .sizes .size-row .size {
   height: 30px;
@@ -236,6 +238,7 @@ div#content #product .img-n-description .description .sizes .size-row .size {
   background-color: #f8f9fb;
   margin-right: 40px;
   padding: 20px;
+ 
 }
 .details .content-right {
   margin-right: -18px;
@@ -257,6 +260,7 @@ div#content #product .img-n-description .description .sizes .size-row .size {
 .details .details-content .content-left .about .content-body {
   font-family: "Roboto";
   margin-top: 10px;
+  font-size: 14px;
 }
 .details .details-content .content-left .adv-1 .content-head {
   font-family: "Oswald";
@@ -266,6 +270,7 @@ div#content #product .img-n-description .description .sizes .size-row .size {
 .details .details-content .content-left .adv-1 .content-body li {
   font-family: "Roboto";
   margin-top: 10px;
+  font-size: 14px;
 }
 .details .details-content .content-left .adv-2 .content-head {
   font-family: "Oswald";
@@ -274,6 +279,7 @@ div#content #product .img-n-description .description .sizes .size-row .size {
 .details .details-content .content-left .adv-2 .content-body li {
   font-family: "Roboto";
   margin-top: 10px;
+  font-size: 14px;
 }
 .details .content-right .shipping .content-head {
   font-family: "Oswald";
@@ -282,14 +288,17 @@ div#content #product .img-n-description .description .sizes .size-row .size {
 .details .content-right .shipping .content-body .para-1 {
   font-family: "Roboto";
   margin-top: 10px;
+  font-size: 14px;
 }
 .details .content-right .shipping .content-body .para-2 {
   font-family: "Roboto";
   margin-top: 10px;
+  font-size: 14px;
 }
 .details .content-right .shipping .content-body .para-3 {
   font-family: "Roboto";
   margin-top: 10px;
+  font-size: 14px;
 }
 .other-info .product-sub-head {
   background-color: #f0f2f2;
@@ -312,4 +321,30 @@ div#content #product .img-n-description .description .sizes .size-row .size {
   bottom: 20%;
   display: flex;
   font-family: "Oswald";
+}
+
+div#content #product .img-n-description .description .sizes .size-row .size1 {
+  height: 30px;
+  width: 30px;
+  border: 1px solid #828282;
+  font-family: "Oswald";
+  font-weight: 400;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  color: #828282;
+  margin-left: 3px;
+  position: relative;
+}
+div#content #product .img-n-description .description .sizes .size-row .size1 .diagonal-line {
+  content: "";
+    position: absolute;
+    border-top: 1px solid #080707;
+    width: 40px;
+    transform: rotate(45deg);
+    transform-origin: 0% 0%;
+    top: 1px;
+    left: 1px;
 }
