@@ -1,5 +1,5 @@
 body {
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 div#header {
   height: 70px;
@@ -17,8 +17,8 @@ div#header #logo {
 }
 div#header #navigation-wrapper {
   /* position: absolute; */
-  height: 100%;
-  width: 100%;
+  /* height: 100%;
+  width: 100%; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -50,10 +50,8 @@ div#header #navigation-wrapper #navigation #search #search-icon {
 }
 
 div#header #account {
-  margin-right: -585px;
   display: flex;
   align-items: center;
-  width: 100%;
 }
 div#header #account > div {
   padding: 0 10px;
@@ -77,4 +75,28 @@ div#header #account #cart #cart-text-1 {
 a {
   color: #817c7c;
   text-decoration: none;
+}
+
+@media screen and (  max-width:650px ) {
+  div#header{
+      height: auto;
+      flex-direction: column;
+      padding: 20px 0;
+  }
+  div#header > div {
+    margin-bottom: 20px;
+  }
+  div#header #navigation-wrapper #navigation{
+    flex-direction: column;
+    align-items: stretch;
+  }
+  div#header #navigation-wrapper #navigation > div {
+    margin-bottom: 10px;
+  }
+  div#header #account{
+    flex-direction: column;
+  }
+  div#header #account > div {
+    margin-bottom: 10px;
+  }
 }

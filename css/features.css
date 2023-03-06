@@ -1,6 +1,6 @@
 body {
-    overflow-x: hidden;
-  }
+    /* overflow-x: hidden; */
+}
 div#features{
     height: 70px;
     display: flex;
@@ -16,3 +16,5 @@ div#features .feature{
 div#features .feature>div{
     padding: 5px;
 }
+
+

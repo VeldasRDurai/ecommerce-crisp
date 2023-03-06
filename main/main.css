@@ -1,5 +1,5 @@
 body {
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 div#content {
   /* height: 100vh; */
@@ -25,7 +25,7 @@ div#content #ad #ad-bgd img {
 div#content #ad #ad-content {
   background-image: url("kadal.png");
   height: 500px;
-  width: 100vw;
+  /* width: 100vw; */
   top: 10px;
   left: 15vw;
   display: flex;
@@ -518,4 +518,54 @@ div#content .wishlist-row .wishlist-item .wishlist-cat {
   align-items: center;
   text-transform: uppercase;
   color: #bdbdbd;
+}
+
+div#content #ad .ad-nav-1 img{
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+div#content #ad .ad-nav-1{
+  position: absolute;
+  width: 85px;
+  bottom: 20px;
+  left: 20px;
+}
+div#content #ad .ad-nav-2{
+  position: absolute;
+  width: 80px;
+  display: flex;
+  justify-content: space-between;
+  bottom: 10px;
+  right: 10px;
+  height: 30px;
+}
+
+@media screen and (max-width:650px){
+  div#content #ad #ad-content{
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 40px 0;
+    height: auto;
+  }
+  div#content #ad #ad-content > div{
+    width: auto;
+  }
+  div#content 
+  #ad 
+  #ad-content 
+  #ad-data {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  /* div#content 
+  #ad 
+  #ad-content 
+  #ad-data 
+  #ad-data-text{
+    align-items: center;
+  } */
+
 }
